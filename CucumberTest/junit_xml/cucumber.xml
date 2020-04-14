@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="58.161067">
+<testcase classname="Login routematic web" name="Login Test Scenario" time="30.299001">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Routematic......................................passed
+Then user enters "rahul.rotti+10@routematic.com" and "Rahul@1234567"........passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login routematic web" name="Login Test Scenario 2" time="27.862066">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Routematic......................................passed
+Then user enters "tom" and "test456"........................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

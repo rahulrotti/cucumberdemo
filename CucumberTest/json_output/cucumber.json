@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Login Test Scenario",
+        "description": "",
+        "id": "login-routematic-web;login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27609805100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "Login_routematic.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41798700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "title of login page is Routematic",
+            "match": {
+              "location": "Login_routematic.title_of_login_page_is_Routematic()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 590608400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"rahul.rotti+10@routematic.com\" and \"Rahul@1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahul.rotti+10@routematic.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Rahul@1234567",
+                  "offset": 49
+                }
+              ],
+              "location": "Login_routematic.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 286156500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login_routematic.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59654600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on home page",
+            "match": {
+              "location": "Login_routematic.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1710977900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close the browser",
+            "match": {
+              "location": "Login_routematic.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Login Test Scenario",
+        "description": "",
+        "id": "login-routematic-web;login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25904738600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "Login_routematic.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32259300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "title of login page is Routematic",
+            "match": {
+              "location": "Login_routematic.title_of_login_page_is_Routematic()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 429679300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters \"tom\" and \"test456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 13
+                },
+                {
+                  "val": "test456",
+                  "offset": 23
+                }
+              ],
+              "location": "Login_routematic.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 229134700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login_routematic.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84109600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on home page",
+            "match": {
+              "location": "Login_routematic.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1182144900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close the browser",
+            "match": {
+              "location": "Login_routematic.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login routematic web",
+    "description": "",
+    "id": "login-routematic-web",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/eclipse-workspace/CucumberTest/src/main/java/Features/login.feature"
+  }
+]
